@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
   <title>Instagram Photo Feed</title>
 
 </head>
@@ -63,7 +64,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="createNewPostModalLabel">Create a new Post</h5>
-          <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
         </div>
         <div class="modal-body">
           <form>
@@ -89,12 +90,12 @@
 
     <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
       <li class="nav-item" role="presentation">
-        <button class="nav-link active text-secondary" id="photo-tab" data-bs-toggle="tab" data-bs-target="#photo"
+        <button class="nav-link btn-lg active" id="photo-tab" data-bs-toggle="tab" data-bs-target="#photo"
           type="button" role="tab" aria-controls="photo" aria-selected="true"><i
             class="fa-solid fa-table-cells"></i></button>
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link text-secondary" id="feeds-tab" data-bs-toggle="tab" data-bs-target="#feeds"
+        <button class="nav-link btn-lg" id="feeds-tab" data-bs-toggle="tab" data-bs-target="#feeds"
           type="button" role="tab" aria-controls="feeds" aria-selected="false"><i
             class="fa-solid fa-square"></i></button>
       </li>
@@ -105,7 +106,7 @@
       <div class="tab-pane fade show active" id="photo" role="tabpanel" aria-labelledby="photo-tab">
 
         <!----CARD----->
-        <div class="card-group mt-3">
+        <div class="card-group mt-3 mx-4">
           <div class="card mx-1">
             <img class="card-img" src="https://picsum.photos/id/513/367/267" alt="Card image cap">
 
@@ -120,7 +121,7 @@
 
         </div>
         <!----CARD----->
-        <div class="card-group mt-2">
+        <div class="card-group mt-2 mx-4">
           <div class="card mx-1">
             <img class="card-img" src="https://picsum.photos/id/9/367/267" alt="Card image cap">
 
@@ -134,7 +135,7 @@
           </div>
         </div>
         <!----CARD----->
-        <div class="card-group mt-2">
+        <div class="card-group mt-2 mx-4">
           <div class="card mx-1">
             <img class="card-img" src="https://picsum.photos/id/42/367/267" alt="Card image cap">
 
